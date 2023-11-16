@@ -94,16 +94,90 @@ const neighbours = ['Macedonia', 'Albania', 'Montenegro', 'Bosnia', 'Croatia', '
 
 // 7 Lecture: Introduction to Objects
 
-const myCountry = {
-    country: 'Serbia',
-    capital: 'Belgrade',
-    language: 'Serbian',
-    population: 6,
-    neighbours: neighbours
-};
+// const myCountry = {
+//     country: 'Serbia',
+//     capital: 'Belgrade',
+//     language: 'Serbian',
+//     population: 6,
+//     neighbours: neighbours
+// };
 
-// console.log(myCountry);
+// // console.log(myCountry);
 
-// 8 Lecture: Dot vs. Bracket Notation
+// // 8 Lecture: Dot vs. Bracket Notation
 
-console.log(`Serbia has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
+// console.log(`Serbia has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
+
+// 9 Lecture: Object Methods
+
+// const myCountry = {
+//     country: 'Serbia',
+//     capital: 'Belgrade',
+//     language: 'Serbian',
+//     population: 6,
+//     neighbours: neighbours,
+
+//     describe: function () {
+//         console.log(`Serbia has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.`)
+//     },
+
+//     checkIsland: function () {
+//         this.neighbours.length === 0 ? this.isisland = true : this.isIsland = false;
+
+//         return this.isIsland;
+//     }
+
+// };
+
+// myCountry.describe();
+// console.log(myCountry.checkIsland());
+
+// 10 Lecture: Iteration the for loop
+
+// for (let i = 1; i <= 50; i++) {
+//     console.log(`Voter number ${i} is currently voting!`);
+// }
+
+// 11 Lecture: Looping arrays, breaking and continuing
+
+// const populations = [6, 10, 80, 1441];
+// const percentages2 = [];
+
+// const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
+
+// for (let i = 0; i < populations.length; i++) {
+//     percentages2.push(percentageOfWorld1(populations[i]));
+// }
+
+// console.log(percentages2);
+// console.log(percentages);
+
+// 12 Lecture: Looping backwards and loops in loops
+
+// const listOfNeighbours = [
+//     ['Canada', 'Mexico'],
+//     ['Spain'],
+//     ['Norway', 'Sweden', 'Russia']
+// ];
+
+// for (let i = 0; i < listOfNeighbours.length; i++) {
+//     for (let j = 0; j < listOfNeighbours[i].length; j++) {
+//         console.log(`Neighbour: ${listOfNeighbours[i][j]}`)
+//     }
+// }
+
+// 13 Lecture: The while loop
+
+// const populations = [6, 10, 80, 1441];
+// const percentages3 = [];
+
+// const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
+
+// let i = 0;
+
+// while (i < populations.length) {
+//     percentages3.push(percentageOfWorld1(populations[i]));
+//     i++;
+// }
+
+// console.log([percentages3]);
